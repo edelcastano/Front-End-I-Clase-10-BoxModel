@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.descuento {
+    background-color:#1CD1B0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: black;
+    width: 100%;
+    height: 38px;
+
+}
+
+.heroes {
+    background-color:#00669F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: black;
+    width: 100%;
+    height: 101px;
+}
+
+.section{
+    position:relative;
+
+
+}
+
+.batman{
+    width: 300px;
+    height: 529px;
+    position: absolute;
+    left: 30px;
+    top: 100px;
+    z-index: 0;
+    background-color: #F3F3F3;
+}
+.harley{
+    width: 300px;
+    height: 529px;
+    position: absolute;
+    left: 360px;
+    top: 100px;
+    z-index: 0;
+    background-color: #F3F3F3;
+
+}
+
+.wason{
+    width: 300px;
+    height: 529px;
+    position: absolute;
+    left: 690px;
+    top: 100px;
+    z-index: 0;
+    background-color: #F3F3F3;
+
+}
+.fondobatman{
+    width: 300px;
+    height: 193px;
+    position: relative;
+    background-image: url("/image/fondo_batman.png");
+    z-index: 10;  
+}
+.fondoharley{
+    width: 300px;
+    height: 193px;
+    position: relative;
+    background-image: url("/image/fondo_harley.png");
+    z-index: 10;  
+}
+
+.fondowason{
+    width: 300px;
+    height: 193px;
+    position: relative;
+    background-image: url("/image/fondo_batman.png");
+    z-index: 10;  
+}
+.subtitulo{
+    position: absolute;
+    left: 80px;
+    top: 300px;
+    z-index: 10;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.letras{
+    position: absolute;
+    top: 340px;
+    z-index: 10;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: black;
+    padding: 5px;
+}
+
+.imagen{
+    width: 110px;
+    height: 118px;
+    position: absolute;
+    top: 132px;
+    left: 95px;
+    z-index: 40;
+    border-radius: 50%;
+}
+
+.corazon{
+    width: 30px;
+    height: 26,25px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 40;
+}
+
+.vermas{
+    width: 128px;
+    height: 48px;
+    position: absolute;
+    bottom: 10px;
+    left: 86px;
+    z-index: 40;
+    border: solid 1px black;
+    background-color: #00669F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+footer{
+    background-color:#00669F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+    width: 1024px;
+    height: 51px;
+}
